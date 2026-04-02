@@ -79,6 +79,19 @@ docker-compose up --build
 
 La API estará disponible en `http://localhost:8080`
 
+## Despliegue en la nube
+
+La API está desplegada en Railway y disponible públicamente en:
+
+**Base URL:** `https://franchise-api-production-5d93.up.railway.app`
+
+Ejemplo:
+```bash
+curl -X POST https://franchise-api-production-5d93.up.railway.app/api/franchises \
+  -H "Content-Type: application/json" \
+  -d '{"name": "Mi Franquicia"}'
+```
+
 ## Endpoints
 
 ### Franquicias
@@ -135,7 +148,7 @@ curl http://localhost:8080/api/franchises/{franchiseId}/top-stock
 mvn test
 ```
 
-Cobertura: 13 tests sobre los casos de uso de franquicias, sucursales y productos.
+Cobertura: 14 tests sobre los casos de uso de franquicias, sucursales y productos.
 
 ## Infraestructura como código (Terraform)
 

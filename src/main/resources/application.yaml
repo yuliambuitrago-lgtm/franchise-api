@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: franchise-api
+  data:
+    mongodb:
+      uri: ${MONGODB_URI}
+      database: ${MONGODB_DATABASE:franchisedb}
+
+server:
+  port: 8080

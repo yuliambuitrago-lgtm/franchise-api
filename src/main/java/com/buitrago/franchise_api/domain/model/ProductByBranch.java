@@ -1,0 +1,15 @@
+package com.buitrago.franchise_api.domain.model;
+
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+@Data
+@Builder
+@NoArgsConstructor
+@AllArgsConstructor
+public class ProductByBranch {
+    private String branchName;
+    private Product product;
+}

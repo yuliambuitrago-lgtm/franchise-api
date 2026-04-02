@@ -44,7 +44,7 @@ src/main/java/com/buitrago/franchise_api/
 
 1. Clona el repositorio:
 ```bash
-git clone https://github.com/tu-usuario/franchise-api.git
+git clone https://github.com/yuliambuitrago-lgtm/franchise-api.git
 cd franchise-api
 ```
 

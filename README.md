@@ -81,13 +81,13 @@ La API estará disponible en `http://localhost:8080`
 
 ## Despliegue en la nube
 
-La API está desplegada en Railway y disponible públicamente en:
+La API está desplegada en Render y disponible públicamente en:
 
-**Base URL:** `https://franchise-api-production-5d93.up.railway.app`
+**Base URL:** `https://franchise-api-d218.onrender.com`
 
 Ejemplo:
 ```bash
-curl -X POST https://franchise-api-production-5d93.up.railway.app/api/franchises \
+curl -X POST https://franchise-api-d218.onrender.com/api/franchises \
   -H "Content-Type: application/json" \
   -d '{"name": "Mi Franquicia"}'
 ```
